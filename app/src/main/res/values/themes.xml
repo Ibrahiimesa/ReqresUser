@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ReqresUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ReqresUser" parent="Base.Theme.ReqresUser" />
+
+    <style name="CustomOutlinedTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/outline_focused</item>
+        <item name="android:background">@drawable/textfield_bg</item>
+        <item name="hintTextColor">@color/outline_focused</item>
+        <item name="boxStrokeErrorColor">@android:color/holo_red_dark</item>
+    </style>
+</resources>
